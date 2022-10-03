@@ -1,0 +1,11 @@
+#header {
+    height: 70vh;
+    background: url("assets/image/header.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-gradient {
+    background: linear-gradient(to right, #D95A2B, #D9432D, #D8262F);
+    color: white;
+}

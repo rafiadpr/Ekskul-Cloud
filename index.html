@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Bootstrap</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="assets/image/brand-logo.png" alt="">
+          </a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Reverber-spec</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Resource</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Part Store</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Where to Buy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- End of Header -->
+    <div class="container-fluid" id="header">
+        <div class="row h-100 align-items-center bg-black bg-opacity-75"> 
+          <!-- h-100 adalah height 100% terhadap parent 
+               align-items-center adalah centering vertical
+               bg-black : background hitam
+               bg-opcity : transparansi background 75%
+          -->
+          <div class="p-5">
+            <h1 class="text-center text-uppercase text-white">
+              detroit radiant
+            </h1>
+            <h3 class="text-center text-uppercase text-white">
+              products company
+            </h3>
+            <p class="text-center text-white">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos laudantium ad eius, reprehenderit aliquid distinctio. Quae voluptatem asperiores minima dolores assumenda quas rem est? Rem nostrum enim ipsam omnis, laudantium similique inventore dolore alias magni.
+              <br><br>
+              <button class="btn btn-lg btn-gradient">
+                GET START NOW
+              </button>
+            </p>
+          </div>
+        </div>
+    </div>
+    <!-- Header Section -->
+
+
+    <!-- Product Secton -->
+    <div class="container-fluid mt-5">
+      <h2 class="text-center text-uppercase">
+        our <span class="text-danger">product line</span>
+      </h2>
+
+      <div class="row">
+        <div class="col-3 ">
+          <img src="assets/image/product-1.png"
+          class="w-100">
+          <h5 class="text-center">Infrared Heaters</h5>
+          <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, recusandae?</p>
+        </div>
+      </div>
+    </div>
+    <!-- End of Product -->
+</body>
+</html>
